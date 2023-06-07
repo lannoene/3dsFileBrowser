@@ -183,7 +183,6 @@ int main() {
 		gfxSwapBuffers();
 		hidScanInput();
 
-		// Your code goes here
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
 			break; // break in order to return to hbmenu
